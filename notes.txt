@@ -1,0 +1,16 @@
+we have a shop named as fatima traders 
+they sale 5 products on daraz 
+now daraz p 1 caror say above products hain 
+in one portion we have name , email , address , products details etc  of fatima traders 
+in another portion we have many products like fatima traders kay products , xyz products , abc products & so on 
+
+from the first portion we have an array of products in data base of fatima traders
+[product1 , product2 , product3 , product4 , product5]
+in the array we assume above we don't put products we put id's [id , id , id , id ] => referencing 
+If we put whole data detail in array it is called as ambadding . 
+[product1_FullData , product2_FullData , product3_FullData , product4_FullData]
+
+referencing is the one which use mostly in the industry as well as the difference is just of idea 
+khud kay model ya collection mai bh data ho product ka as well as user kay collection mai bh h same data means hmny data ki 2 copies bna li hain and hm us copy ko dono jagh use kar rhy hain 
+agar hm user ki collection mai bus id rakhain it is referencing and exact same data copy kar kay rakhain to it is ambadding 
+ambadding mai aik he faida h data jaldi read ho jata h where as is mai space ziada lagti h 
